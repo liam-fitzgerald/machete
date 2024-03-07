@@ -8,15 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    private var parents = ["Foo", "bar"];
+    @State private var siblings = [];
+    @State private var kids = [];
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
+        Text("Test")
+//        NavigationSplitView(sidebar: List(parents) {
+//            parent in Text(parent)
+//        } content: {
+//            Text("foo")
+//            
+//        }, detail: List(kids) {
+//            kid in Text(kid)
+//        }
+   }
 }
 
 #Preview {

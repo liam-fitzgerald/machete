@@ -6,6 +6,7 @@
 //
 
 import XCTest
+@testable import machete
 
 final class macheteTests: XCTestCase {
 
@@ -32,4 +33,30 @@ final class macheteTests: XCTestCase {
         }
     }
 
+}
+
+final class DataModelTests: XCTestCase {
+    func testBy() {
+        let mdl = DataModel.shared
+        let kids = mdl.children(ship: "~hastuc-dibtux", path: UPath(fromStr: "/uf-internal"))
+        XCTAssertEqual(kids[0].string, "/uf-internal/general")
+        XCTAssertEqual(kids[1].string, "/uf-internal/comms")
+    }
+}
+
+final class SomeTests: XCTestCase {
+    func testFoo() {
+        
+        
+    }
+}
+
+final class UPathTests: XCTestCase {
+    func testParse() {
+        let paths = ["/foo/bar", "/", "/bar", "/foo/bar/baz"]
+        paths.forEach({ path in
+            let p = UPath(fromStr: path)
+            XCTAssertEqual(p.string, path, "Path parsing not idempotent")
+        })
+    }
 }

@@ -14,6 +14,18 @@
 		345CB8302B98C9EF005BB9BA /* macheteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB82F2B98C9EF005BB9BA /* macheteTests.swift */; };
 		345CB83A2B98C9EF005BB9BA /* macheteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB8392B98C9EF005BB9BA /* macheteUITests.swift */; };
 		345CB83C2B98C9EF005BB9BA /* macheteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB83B2B98C9EF005BB9BA /* macheteUITestsLaunchTests.swift */; };
+		345CB8492B98CDF9005BB9BA /* KidsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB8482B98CDF9005BB9BA /* KidsView.swift */; };
+		345CB84B2B98CE47005BB9BA /* GoonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB84A2B98CE47005BB9BA /* GoonNode.swift */; };
+		345CB84D2B98CF06005BB9BA /* IotaProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB84C2B98CF06005BB9BA /* IotaProtocol.swift */; };
+		345CB84F2B98D60D005BB9BA /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB84E2B98D60D005BB9BA /* ParentView.swift */; };
+		345CB8512B98D810005BB9BA /* ScarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB8502B98D810005BB9BA /* ScarView.swift */; };
+		345CB8532B98EB47005BB9BA /* SiblingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB8522B98EB47005BB9BA /* SiblingsView.swift */; };
+		345CB8552B98EB84005BB9BA /* NodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB8542B98EB84005BB9BA /* NodeView.swift */; };
+		345CB8572B98EE73005BB9BA /* TreeNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB8562B98EE73005BB9BA /* TreeNavView.swift */; };
+		345CB8592B98F68C005BB9BA /* UrbitNS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB8582B98F68C005BB9BA /* UrbitNS.swift */; };
+		345CB85C2B98FC86005BB9BA /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB85B2B98FC86005BB9BA /* DataModel.swift */; };
+		345CB85E2B98FCEA005BB9BA /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB85D2B98FCEA005BB9BA /* Path.swift */; };
+		345CB8602B9904C6005BB9BA /* NavigationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CB85F2B9904C6005BB9BA /* NavigationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +57,18 @@
 		345CB8352B98C9EF005BB9BA /* macheteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macheteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		345CB8392B98C9EF005BB9BA /* macheteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macheteUITests.swift; sourceTree = "<group>"; };
 		345CB83B2B98C9EF005BB9BA /* macheteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macheteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		345CB8482B98CDF9005BB9BA /* KidsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsView.swift; sourceTree = "<group>"; };
+		345CB84A2B98CE47005BB9BA /* GoonNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoonNode.swift; sourceTree = "<group>"; };
+		345CB84C2B98CF06005BB9BA /* IotaProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IotaProtocol.swift; sourceTree = "<group>"; };
+		345CB84E2B98D60D005BB9BA /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
+		345CB8502B98D810005BB9BA /* ScarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScarView.swift; sourceTree = "<group>"; };
+		345CB8522B98EB47005BB9BA /* SiblingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiblingsView.swift; sourceTree = "<group>"; };
+		345CB8542B98EB84005BB9BA /* NodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeView.swift; sourceTree = "<group>"; };
+		345CB8562B98EE73005BB9BA /* TreeNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNavView.swift; sourceTree = "<group>"; };
+		345CB8582B98F68C005BB9BA /* UrbitNS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbitNS.swift; sourceTree = "<group>"; };
+		345CB85B2B98FC86005BB9BA /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		345CB85D2B98FCEA005BB9BA /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		345CB85F2B9904C6005BB9BA /* NavigationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +119,18 @@
 		345CB81C2B98C9EE005BB9BA /* machete */ = {
 			isa = PBXGroup;
 			children = (
+				345CB85A2B98FC68005BB9BA /* Models */,
 				345CB81D2B98C9EE005BB9BA /* macheteApp.swift */,
 				345CB81F2B98C9EE005BB9BA /* ContentView.swift */,
+				345CB8562B98EE73005BB9BA /* TreeNavView.swift */,
+				345CB8582B98F68C005BB9BA /* UrbitNS.swift */,
+				345CB84E2B98D60D005BB9BA /* ParentView.swift */,
+				345CB8522B98EB47005BB9BA /* SiblingsView.swift */,
+				345CB8542B98EB84005BB9BA /* NodeView.swift */,
+				345CB8482B98CDF9005BB9BA /* KidsView.swift */,
+				345CB84A2B98CE47005BB9BA /* GoonNode.swift */,
+				345CB8502B98D810005BB9BA /* ScarView.swift */,
+				345CB84C2B98CF06005BB9BA /* IotaProtocol.swift */,
 				345CB8212B98C9EF005BB9BA /* Assets.xcassets */,
 				345CB8232B98C9EF005BB9BA /* machete.entitlements */,
 				345CB8242B98C9EF005BB9BA /* Preview Content */,
@@ -127,6 +161,16 @@
 				345CB83B2B98C9EF005BB9BA /* macheteUITestsLaunchTests.swift */,
 			);
 			path = macheteUITests;
+			sourceTree = "<group>";
+		};
+		345CB85A2B98FC68005BB9BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				345CB85B2B98FC86005BB9BA /* DataModel.swift */,
+				345CB85D2B98FCEA005BB9BA /* Path.swift */,
+				345CB85F2B9904C6005BB9BA /* NavigationModel.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +303,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				345CB84D2B98CF06005BB9BA /* IotaProtocol.swift in Sources */,
 				345CB8202B98C9EE005BB9BA /* ContentView.swift in Sources */,
 				345CB81E2B98C9EE005BB9BA /* macheteApp.swift in Sources */,
+				345CB8532B98EB47005BB9BA /* SiblingsView.swift in Sources */,
+				345CB84B2B98CE47005BB9BA /* GoonNode.swift in Sources */,
+				345CB85C2B98FC86005BB9BA /* DataModel.swift in Sources */,
+				345CB8552B98EB84005BB9BA /* NodeView.swift in Sources */,
+				345CB84F2B98D60D005BB9BA /* ParentView.swift in Sources */,
+				345CB8492B98CDF9005BB9BA /* KidsView.swift in Sources */,
+				345CB8592B98F68C005BB9BA /* UrbitNS.swift in Sources */,
+				345CB85E2B98FCEA005BB9BA /* Path.swift in Sources */,
+				345CB8572B98EE73005BB9BA /* TreeNavView.swift in Sources */,
+				345CB8512B98D810005BB9BA /* ScarView.swift in Sources */,
+				345CB8602B9904C6005BB9BA /* NavigationModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
